@@ -21,6 +21,12 @@ Build terminal-themed web applications with Rust and WebAssembly. Powered by [Ra
 
 ## Quickstart
 
+Add compilation target `wasm32-unknown-unknown`:
+
+```sh
+rustup target add wasm32-unknown-unknown
+```
+
 Add **Ratzilla** as a dependency in your `Cargo.toml`:
 
 ```sh
